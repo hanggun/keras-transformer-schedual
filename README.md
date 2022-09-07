@@ -16,3 +16,4 @@ optimizer=Adamt(learning_rate=1,
 ```
 
 通过将learning_rate设置为1，模型梯度下降的学习等于transformer schedule给出的学习率，start_step可以方便中断后继续训练
+其他介绍可以在[基于keras的transformer learning rate schedule](https://blog.csdn.net/qiongyaoxinpo/article/details/126744099?spm=1001.2014.3001.5501)参考
